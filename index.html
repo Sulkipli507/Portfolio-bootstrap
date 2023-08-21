@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Sulkipli</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item me-4">
+                <a class="nav-link fw-bold" aria-current="page" href="#beranda">Beranda</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link fw-bold" href="#tentang">Tentang saya</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link fw-bold" href="#project">Project</a>
+              </li>
+              <li class="nav-item me-4">
+                <a class="nav-link fw-bold" href="#kontak">Kontak</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar end -->
+
+      <!-- Beranda start -->
+      <section id="beranda">
+        <div class="container py-5 mt-4 min-vh-100">
+          <div class="row align-items-center">
+            <div class="col-md-6">
+              <div class="beranda-text">
+                <h4>Hay, Saya</h4>
+                <h1 class="text-info">Sulkipli</h1>
+                <h3>Mahasiswa Teknik Informatika</h3>
+                <button type="button" class="btn btn-outline-info">Hubungi saya</button>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="beranda-img">
+                <img class="mw-100" src="img/profil.png" alt="profil">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Beranda end -->
+
+      <!-- Tentang saya start -->
+      <section id="tentang">
+        <div class="container py-5 min-vh-100">
+          <h3 class="fw-bold text-center mb-3">Tentang Saya</h3>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="tentang-img">
+                <img class="mw-100" src="img/tentang.jpg" alt="tentang">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="tentang-text">
+                <p>Haloo, Saya adalah seorang programmer yang telah 
+                  mengerjakan beberapa project. Berikut adalah bahasa pemrograman 
+                  yang saya kuasai :
+                </p>
+                <span class="badge rounded-pill bg-secondary text-light">Python</span>
+                <span class="badge rounded-pill bg-warning text-dark">Javascript</span>
+                <span class="badge rounded-pill bg-primary text-light">PHP</span>
+                <span class="badge rounded-pill bg-info text-dark">Dart</span>
+                <div class="mt-3">
+                  <button type="button" class="btn btn-success">Download CV</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Tentang saya end -->
+
+      <!-- Project start -->
+      <section id="project">
+        <div class="container py-5 min-vh-100">
+          <h3 class="fw-bold text-center">Project Saya</h3>
+          <div class="row align-items-center">
+            <div class="col-md-4 mb-3 text-center">
+              <div class="card" style="width: 18rem;">
+                <img src="img/project1.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Sistem informasi peminjaman ruangan</h5>
+                  <p class="card-text">Sistem ini digunakan untuk mempermudah proses peminjaman ruangan</p>
+                  <a href="#" class="btn btn-info">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-center">
+              <div class="card" style="width: 18rem;">
+                <img src="img/project2.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">E-Screening</h5>
+                  <p class="card-text">Sistem ini digunakan untuk mempermudah tenaga kesehatan dalam mengelola data pasien</p>
+                  <a href="#" class="btn btn-info">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-3 text-center">
+              <div class="card" style="width: 18rem;">
+                <img src="img/project3.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title">Arsip Desa</h5>
+                  <p class="card-text">Sistem ini digunakan untuk menyimpan dokumen-dokumen desa</p>
+                  <a href="#" class="btn btn-info">Kunjungi</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Project end -->
+
+      <!-- Kontak start -->
+      <section id="kontak">
+        <div class="container py-5">
+          <h3 class="fw-bold text-center">Kontak saya</h3>
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <form>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Nama</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">Email</label>
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1" class="form-label">Pesan</label>
+                  <input type="text" class="form-control" id="exampleInputPassword1">
+                </div>
+                <button type="submit" class="btn btn-info rounded-pill">Kirim</button>
+              </form>
+            </div>
+          </div>      
+        </div>
+      </section>
+      <!-- Kontak end -->
+
+      <!-- Footer start -->
+      <footer class="bg-info py-3 text-center fw-bold">
+        <p>Created by <a class="text-dark" href="">Sulkipli</a></p>
+      </footer>
+      <!-- Footer end -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
